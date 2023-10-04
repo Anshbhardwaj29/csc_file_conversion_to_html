@@ -14,3 +14,4 @@ df = pd.read_csv('estadistical.csv')
 profile = ProfileReport(df)
 
 profile.to_file(output_file="output1.html")
+#print("snhd")
